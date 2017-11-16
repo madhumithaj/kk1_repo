@@ -265,7 +265,7 @@
               "privateIPAddress": "[variables('ipArray')]",
               "privateIPAllocationMethod": "Static",
               "subnet": {
-                "id": "[concat(resourceId(variables('Microsoft.Network/virtualNetworks', variables('devVnet')), '/subnets/',variables('devSubnet'))]"
+                "id": "[concat(resourceId(variables('Microsoft.Network/virtualNetworks', variables('devVnet')), '/subnets/',variables('devSubnet')))]"
               }
             }
           }
